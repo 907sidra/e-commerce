@@ -1,0 +1,26 @@
+.footer-con {
+    background-color: aliceblue; /* Background color for the footer */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-evenly; /* Evenly distribute footer items */
+    align-items: center; /* Center items vertically */
+    padding: 15px 20px; /* Padding for the footer */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Reduced space above the footer */
+    position: relative; /* Allow for stacking context */
+}
+
+@media screen and (min-width: 100px) and(max-width: 750px) {
+    .footer-con {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center align items */
+        padding: 10px; /* Reduce padding for mobile */
+    }
+
+    .images {
+        margin-top: 100px;
+        margin-bottom: 10px; /* Add space between items */
+        width: auto; /* Ensure images retain their original width */
+        max-width: 80%; /* Ensure they don't overflow the container */
+    }
+}

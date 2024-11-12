@@ -1,0 +1,106 @@
+.header{
+    width: 90%;
+    padding-left: 30px;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    margin:0 auto;
+
+}
+.logo{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bolder;
+    margin-left:10px;
+    font-size:30px;
+    font-family:'Poppins' ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.orange{
+    color:#F55F1D;
+}
+.header-left-div{
+    width:35%;
+}
+.header-right-div{
+    width:50%;
+    
+}
+.header-list{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position:relative;
+    flex-wrap: wrap; /* Allows links to wrap in smaller viewports */
+    width: 100%; /* Ensure full width */
+}
+
+.links {  
+    text-align: center;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+
+}
+.links:hover{
+    text-decoration: underline;
+    color: rgb(113, 106, 106);
+}
+.login-btn{
+    outline:auto;
+    outline-color:#20B15A ;
+    border-radius:5px;
+     padding: 10px 30px;
+    font-weight:bold;
+   background-color:#D7F5DC;
+   margin-bottom: 10px;
+}
+.reg-btn{
+    border-radius:5px;
+    background-color:#20B15A;
+    padding: 10px 20px;
+    font-weight:bold;
+    color:azure;
+    border:none;
+    margin-bottom: 10px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and(min-width:100px) and (max-width: 750px) {
+
+    @media screen and (max-width: 750px) {
+        .header {
+            flex-direction: column; /* Stack items vertically on small screens */
+            align-items: center; /* Center align items */
+        }
+    
+        .header-left-div, .header-right-div {
+            width: 100%; /* Full width on mobile */
+            text-align: center; /* Center text on mobile */
+            margin-bottom: 10px; /* Add space between sections */
+        }
+    
+        .header-list {
+            flex-direction: column; /* Stack links vertically on mobile */
+            align-items: center; /* Center links */
+            padding: 10px 0; /* Add vertical padding */
+        }
+    
+        .links {
+            padding: 5px 0; /* Adjust padding for mobile links */
+        }
+    
+        .login-btn, .reg-btn {
+            width: 100%; /* Full width buttons on mobile */
+            margin-bottom: 10px; /* Space between buttons */
+        }
+    
+        .logo {
+            font-size: 24px; /* Adjust logo size for mobile */
+        }
+    }
+}
