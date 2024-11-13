@@ -11,6 +11,8 @@ import Link from "next/link"
             {/* right */}
             <div className="header-right-div">
                 <ul className="header-list">
+                
+                <li ><Link className="links" href={"/"}>Home</Link></li>
                 <li>
                 <Link className="links" href={"/service"}>Services</Link>
                 {/* Dropdown Menu */}
@@ -20,8 +22,8 @@ import Link from "next/link"
                 <li><Link className="links" href={"/service3"}>Service 3</Link></li>
             </ul> */}
             </li>
-                <li ><Link className="links" href={"/about"}>About us</Link></li>
-                <li ><Link className="links" href={"/"}>Contact us</Link></li>
+                <li ><Link className="links" href={"/contact"}>contact us</Link></li>
+                
                 <button className="login-btn">Login</button>
                 <button className="reg-btn">Register</button>
                 </ul>

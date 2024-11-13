@@ -5,6 +5,7 @@ import Services from "@/components/services";
 import Footer from "@/components/footer";
 
 
+
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,8 @@ export default function Home() {
     <Hero/>
     <Services/>
     <Footer/>
+   
+
         </div>
   );
   }

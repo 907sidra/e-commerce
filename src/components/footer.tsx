@@ -3,6 +3,7 @@ import Image from "next/image"
 
 export default function Footer(){
     return(
+        <main className="main-foot">
         <footer className="footer-con">
             <Image src="/images/google.png" width="60" height="20"
             alt="pic"
@@ -31,7 +32,7 @@ export default function Footer(){
             
         </footer>
 
-
+        </main>
 
 
 

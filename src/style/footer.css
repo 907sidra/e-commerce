@@ -1,3 +1,10 @@
+/* .main-foot{
+    width:100%;
+    height:200px;
+} */
+
+
+
 .footer-con {
     background-color: aliceblue; /* Background color for the footer */
     display: flex; /* Use flexbox for layout */
@@ -10,7 +17,10 @@
     position: relative; /* Allow for stacking context */
 }
 
-@media screen and (min-width: 100px) and(max-width: 750px) {
+@media screen and (min-width:100px) and (max-width: 750px) {
+  
+    
+    
     .footer-con {
         flex-direction: column; /* Stack items vertically on mobile */
         align-items: center; /* Center align items */
@@ -18,9 +28,8 @@
     }
 
     .images {
-        margin-top: 100px;
-        margin-bottom: 10px; /* Add space between items */
+        margin: 20px 0; /* Uniform margin above and below images */
         width: auto; /* Ensure images retain their original width */
-        max-width: 80%; /* Ensure they don't overflow the container */
+        max-width: 90%; /* Allow images to take up more width, adjusting from 80% to 90% */
     }
 }

@@ -1,4 +1,5 @@
 import "../style/services.css"
+import Image from "next/image";
 import { FaLaptopCode } from "react-icons/fa";
 import { GiSoundOn } from "react-icons/gi";
 import { SiAdobeindesign } from "react-icons/si";
@@ -39,8 +40,8 @@ export default function Services(){
              <h3>Web Development</h3>
              <span>Blog, E-Commerce</span></div>
              </div>
+             </div>
+             </main>
 
-            </div>
-        </main>
-    )
+    );
 }

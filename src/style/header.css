@@ -70,22 +70,25 @@
 }
 
 /* Media Query for Responsive Design */
-@media screen and(min-width:100px) and (max-width: 750px) {
+@media screen and (min-width:100px) and (max-width: 750px) {
 
-    @media screen and (max-width: 750px) {
+    /* @media screen and (max-width: 750px) { */
         .header {
+            display: flex;
             flex-direction: column; /* Stack items vertically on small screens */
             align-items: center; /* Center align items */
         }
     
-        .header-left-div, .header-right-div {
+        .header-left-div,.header-right-div {
             width: 100%; /* Full width on mobile */
             text-align: center; /* Center text on mobile */
-            margin-bottom: 10px; /* Add space between sections */
+            margin-bottom: 10px;
+             /* Add space between sections */
         }
     
         .header-list {
-            flex-direction: column; /* Stack links vertically on mobile */
+            flex-direction: column; 
+            /* Stack links vertically on mobile */
             align-items: center; /* Center links */
             padding: 10px 0; /* Add vertical padding */
         }
@@ -103,4 +106,4 @@
             font-size: 24px; /* Adjust logo size for mobile */
         }
     }
-}
+
