@@ -17,8 +17,6 @@ export default function about(){
                 <input className="msg" type="text" placeholder="Your message" />
                 <button className="btn">Submit</button>
                 </form></div></main>
-    
-
             <><Footer /></>
             </>
     )

@@ -24,7 +24,8 @@
     .footer-con {
         flex-direction: column; /* Stack items vertically on mobile */
         align-items: center; /* Center align items */
-        padding: 10px; /* Reduce padding for mobile */
+        padding:10px ; /* Reduce padding for mobile */
+        margin-top: 680px;
     }
 
     .images {
