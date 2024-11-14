@@ -16,7 +16,7 @@ export default function Services(){
                 {/* top-div */}
                 <div className="top-div-ser">
                     <h2 className="title-ser">My Services</h2>
-                    <p className="des-ser">"Explore our services to find the perfect solutions that meet your unique needs and aspirations."</p>
+                    <p className="des-ser">&quot;Explore our services to find the perfect solutions that meet your unique needs and aspirations.&quot;</p>
                 </div>
                 {/* bottom-div */}
                 <div className="boxes-con">
